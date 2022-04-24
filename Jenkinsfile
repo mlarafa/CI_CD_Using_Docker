@@ -2,7 +2,7 @@ pipeline {
 	agent any 
 	tools 
 	{ 
-		maven "Maven" 
+		maven "apache maven 3.8.5" 
 	} 
 	stages { 
 		stage('checkout') { 
